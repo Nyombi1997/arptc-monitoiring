@@ -1,18 +1,18 @@
 <?php
-require 'vendor/autoload.php';
 
-use Elastic\Elasticsearch\ClientBuilder;
+/* include config */
+include_once '_config.php';
 
-// Tentative de connexion simplifiée
-try {
-    $client = ClientBuilder::create()
-        ->setHosts(['http://localhost:9200'])
-        ->build();
+MyAutoload::start();
 
-    $info = $client->info();
-    echo "<h1>🚀 Succès total !</h1>";
-    echo "Connecté à l'index de : " . $info['cluster_name'];
-} catch (Exception $e) {
-    echo "<h1>⚠️ Presque bon...</h1>";
-    echo "Erreur : " . $e->getMessage();
+// Si 'r' n'est pas défini, on met 'home' comme route par défaut
+$request = trim($_GET['r'] ?? '', '/');
+if ($request === '') {
+    $request = '';
 }
+
+// Délègue toute la logique au routeur
+$routeur = new Routeur($request);
+$routeur->renderController();
+
+?>
