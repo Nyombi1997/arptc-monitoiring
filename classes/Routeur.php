@@ -4,8 +4,15 @@
         private $request;
 
         private $routes = [
-                            "" => ["controller" => 'Home', "method" => 'showLogin'],
-                            "accueil" => ["controller" => 'Home', "method" => 'showHome'],
+                            "" => ["controller" => 'Home', "method" => 'showHome'], 
+                            "accueil" => ["controller" => 'Home', "method" => 'showAccueil'],
+
+                            "compte" => ["controller" => 'Home', "method" => 'showAccount'],
+                            "editer-profile" => ["controller" => 'Home', "method" => 'showEditProfil'],
+                            "modifier-photo-de-profile" => ["controller" => 'Home', "method" => 'showChangePhotoProfile'],
+
+                            "inscription" => ["controller" => 'Home', "method" => 'showSignin'],
+                            "deconnexion" => ["controller" => 'Home', "method" => 'showLogout'],
                         ];
 
         public function __construct($request) {

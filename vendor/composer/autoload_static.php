@@ -4,131 +4,79 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit896ff89adf34fedde1ecec1943b40744
+class ComposerStaticInit0ed503b368b54f90859abd06c7a29a83
 {
     public static $files = array (
-        '5897ea0ac4cccf14d323035e65887801' => __DIR__ . '/..' . '/symfony/polyfill-php82/bootstrap.php',
-        '8e92226780215d0ec758aa7b73e0ede9' => __DIR__ . '/..' . '/open-telemetry/context/fiber/initialize_fiber_handler.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
-        'c7b4a5d8b94d270f0f9a84f81e1dd63d' => __DIR__ . '/..' . '/open-telemetry/api/Trace/functions.php',
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
+        'a4ecaeafb8cfb009ad0e052c90355e98' => __DIR__ . '/..' . '/beberlei/assert/lib/Assert/functions.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'S' =>
+        'P' => 
         array (
-            'Symfony\\Polyfill\\Php82\\' => 23,
-        ),
-        'P' =>
-        array (
-            'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Http\\Client\\' => 16,
         ),
-        'O' =>
+        'I' => 
         array (
-            'OpenTelemetry\\Context\\' => 22,
-            'OpenTelemetry\\API\\' => 18,
+            'ImageKit\\' => 9,
         ),
-        'H' =>
-        array (
-            'Http\\Promise\\' => 13,
-            'Http\\Discovery\\' => 15,
-            'Http\\Client\\' => 12,
-        ),
-        'G' =>
+        'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
         ),
-        'E' =>
+        'A' => 
         array (
-            'Elastic\\Transport\\' => 18,
-            'Elastic\\Elasticsearch\\' => 22,
+            'Assert\\' => 7,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Symfony\\Polyfill\\Php82\\' =>
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-php82',
-        ),
-        'Psr\\Log\\' =>
-        array (
-            0 => __DIR__ . '/..' . '/psr/log/src',
-        ),
-        'Psr\\Http\\Message\\' =>
+        'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-factory/src',
             1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
-        'Psr\\Http\\Client\\' =>
+        'Psr\\Http\\Client\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-client/src',
         ),
-        'OpenTelemetry\\Context\\' =>
+        'ImageKit\\' => 
         array (
-            0 => __DIR__ . '/..' . '/open-telemetry/context',
+            0 => __DIR__ . '/..' . '/imagekit/imagekit/src/ImageKit',
         ),
-        'OpenTelemetry\\API\\' =>
-        array (
-            0 => __DIR__ . '/..' . '/open-telemetry/api',
-        ),
-        'Http\\Promise\\' =>
-        array (
-            0 => __DIR__ . '/..' . '/php-http/promise/src',
-        ),
-        'Http\\Discovery\\' =>
-        array (
-            0 => __DIR__ . '/..' . '/php-http/discovery/src',
-        ),
-        'Http\\Client\\' =>
-        array (
-            0 => __DIR__ . '/..' . '/php-http/httplug/src',
-        ),
-        'GuzzleHttp\\Psr7\\' =>
+        'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
         ),
-        'GuzzleHttp\\Promise\\' =>
+        'GuzzleHttp\\Promise\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
         ),
-        'GuzzleHttp\\' =>
+        'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
-        'Elastic\\Transport\\' =>
+        'Assert\\' => 
         array (
-            0 => __DIR__ . '/..' . '/elastic/transport/src',
-        ),
-        'Elastic\\Elasticsearch\\' =>
-        array (
-            0 => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src',
+            0 => __DIR__ . '/..' . '/beberlei/assert/lib/Assert',
         ),
     );
 
     public static $classMap = array (
-        'AllowDynamicProperties' => __DIR__ . '/..' . '/symfony/polyfill-php82/Resources/stubs/AllowDynamicProperties.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'Random\\BrokenRandomEngineError' => __DIR__ . '/..' . '/symfony/polyfill-php82/Resources/stubs/Random/BrokenRandomEngineError.php',
-        'Random\\CryptoSafeEngine' => __DIR__ . '/..' . '/symfony/polyfill-php82/Resources/stubs/Random/CryptoSafeEngine.php',
-        'Random\\Engine' => __DIR__ . '/..' . '/symfony/polyfill-php82/Resources/stubs/Random/Engine.php',
-        'Random\\Engine\\Secure' => __DIR__ . '/..' . '/symfony/polyfill-php82/Resources/stubs/Random/Engine/Secure.php',
-        'Random\\RandomError' => __DIR__ . '/..' . '/symfony/polyfill-php82/Resources/stubs/Random/RandomError.php',
-        'Random\\RandomException' => __DIR__ . '/..' . '/symfony/polyfill-php82/Resources/stubs/Random/RandomException.php',
-        'SensitiveParameter' => __DIR__ . '/..' . '/symfony/polyfill-php82/Resources/stubs/SensitiveParameter.php',
-        'SensitiveParameterValue' => __DIR__ . '/..' . '/symfony/polyfill-php82/Resources/stubs/SensitiveParameterValue.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit896ff89adf34fedde1ecec1943b40744::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit896ff89adf34fedde1ecec1943b40744::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit896ff89adf34fedde1ecec1943b40744::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit0ed503b368b54f90859abd06c7a29a83::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit0ed503b368b54f90859abd06c7a29a83::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit0ed503b368b54f90859abd06c7a29a83::$classMap;
 
         }, null, ClassLoader::class);
     }

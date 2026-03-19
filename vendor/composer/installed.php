@@ -19,21 +19,12 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'elastic/transport' => array(
-            'pretty_version' => 'v8.11.0',
-            'version' => '8.11.0.0',
-            'reference' => '1d476af5dc0b74530d59b67d5dd96ee39768d5a4',
+        'beberlei/assert' => array(
+            'pretty_version' => 'v2.9.9',
+            'version' => '2.9.9.0',
+            'reference' => '124317de301b7c91d5fce34c98bba2c6925bec95',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../elastic/transport',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'elasticsearch/elasticsearch' => array(
-            'pretty_version' => 'v8.19.0',
-            'version' => '8.19.0.0',
-            'reference' => '1771284cb43a7b653634d418b6f5f0ec84ff8a6d',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../elasticsearch/elasticsearch',
+            'install_path' => __DIR__ . '/../beberlei/assert',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -64,60 +55,12 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'open-telemetry/api' => array(
-            'pretty_version' => '1.8.0',
-            'version' => '1.8.0.0',
-            'reference' => 'df5197c6fd0ddd8e9883b87de042d9341300e2ad',
+        'imagekit/imagekit' => array(
+            'pretty_version' => '4.0.2',
+            'version' => '4.0.2.0',
+            'reference' => 'b3ae1b6582f9f044359afd005e52ba8ea421f3f7',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../open-telemetry/api',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'open-telemetry/context' => array(
-            'pretty_version' => '1.4.0',
-            'version' => '1.4.0.0',
-            'reference' => 'd4c4470b541ce72000d18c339cfee633e4c8e0cf',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../open-telemetry/context',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'php-http/async-client-implementation' => array(
-            'dev_requirement' => false,
-            'provided' => array(
-                0 => '*',
-            ),
-        ),
-        'php-http/client-implementation' => array(
-            'dev_requirement' => false,
-            'provided' => array(
-                0 => '*',
-            ),
-        ),
-        'php-http/discovery' => array(
-            'pretty_version' => '1.20.0',
-            'version' => '1.20.0.0',
-            'reference' => '82fe4c73ef3363caed49ff8dd1539ba06044910d',
-            'type' => 'composer-plugin',
-            'install_path' => __DIR__ . '/../php-http/discovery',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'php-http/httplug' => array(
-            'pretty_version' => '2.4.1',
-            'version' => '2.4.1.0',
-            'reference' => '5cad731844891a4c282f3f3e1b582c46839d22f4',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../php-http/httplug',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'php-http/promise' => array(
-            'pretty_version' => '1.3.1',
-            'version' => '1.3.1.0',
-            'reference' => 'fc85b1fba37c169a69a07ef0d5a8075770cc1f83',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../php-http/promise',
+            'install_path' => __DIR__ . '/../imagekit/imagekit',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -133,8 +76,7 @@
         'psr/http-client-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '*',
-                1 => '1.0',
+                0 => '1.0',
             ),
         ),
         'psr/http-factory' => array(
@@ -149,8 +91,7 @@
         'psr/http-factory-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '*',
-                1 => '1.0',
+                0 => '1.0',
             ),
         ),
         'psr/http-message' => array(
@@ -165,18 +106,8 @@
         'psr/http-message-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '*',
-                1 => '1.0',
+                0 => '1.0',
             ),
-        ),
-        'psr/log' => array(
-            'pretty_version' => '3.0.2',
-            'version' => '3.0.2.0',
-            'reference' => 'f16e1d5863e37f8d8c2a01719f5b34baa2b714d3',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../psr/log',
-            'aliases' => array(),
-            'dev_requirement' => false,
         ),
         'ralouphie/getallheaders' => array(
             'pretty_version' => '3.0.3',
@@ -193,15 +124,6 @@
             'reference' => '63afe740e99a13ba87ec199bb07bbdee937a5b62',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/deprecation-contracts',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'symfony/polyfill-php82' => array(
-            'pretty_version' => 'v1.33.0',
-            'version' => '1.33.0.0',
-            'reference' => '5d2ed36f7734637dacc025f179698031951b1692',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../symfony/polyfill-php82',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
